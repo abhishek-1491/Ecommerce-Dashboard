@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-items">
+            logo
+        </div>
+        <div class="nav-items">
+            <div class="list-item">
+                <li>Products</li>
+                <li>Categories</li>
+                <li>Cart</li>
+            </div>
+        </div>
+        <div class="nav-items">
+            <div class="nav-btns">
+                <button>Sign In</button>
+                <button>Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- side bar -->
+
+    <section class="sidebar">
+        <div class="admin-details">
+
+        </div>
+        <div class="sidebar-list">
+            <div class="sidebar-list-item">
+                <li>Dashboard</li>
+                <li onclick="showUsers()">Users</li>
+                <li onclick="showProducts()">Products</li>
+                <li>Category</li>
+            </div>
+
+        </div>
+        <div class="logout-btn">
+            <button>Logout</button>
+        </div>
+    </section>
+
+    <header class="header" id="header">
+        <div class="header-btns" id="category">
+
+        </div>
+        <div class="sorting">
+            <div class="content">
+                <span>Sort By : </span>
+                <select name="" id="sort" onchange="sortProducts()">
+                    <option value="default">Default</option>
+                    <option value="priceLowHigh">Price : Low to High</option>
+                    <option value="priceHighLow">Price : High to Low</option>
+                    <option value="nameAZ">Name : A - Z</option>
+                    <option value="nameZA">Name : Z - A</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <div class="container" id="container">
+        <!-- <div class="product-card">
+            <img src="Abhishek.jpg" alt="">
+            <h2>Label</h2>
+            <p class="price">1000</p>
+            <p class="category">Category</p>
+            <button>Add To Cart</button>
+        </div> -->
+
+        
+    </div>
+    <div class="users-container" id="users-container">
+            <!-- <div class="users-table">
+                <h2>Manage Users</h2>
+                <table>
+                    <tr>
+                        <th>Sr. No</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Contact</th>
+                        <th>City</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name</td>
+                        <td>abhi@gmail.com</td>
+                        <td>9527974938</td>
+                        <td>Pune</td>
+                        <td><button>Show Details</button></td>
+                    </tr>
+                </table>
+            </div> -->
+    </div>
+    </div>
+    <div class="pop" id="pop">
+        <!-- <img src="Abhishek.jpg" alt="">
+        <div class="details">
+            <h3>Abhishek</h3>
+            <p class="price">1000</p>
+            <p class="category">Men</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ab
+                voluptatem corporis amet sed quae cum tempore repellat fugiat autem, repellendus incidunt! Quas,
+                consequatur eveniet repellendus delectus laudantium exercitationem odit.
+            </p>
+            <p class="rating">5 Star</p>
+            <button>Add To Cart</button> -->
+    </div>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
